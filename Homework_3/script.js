@@ -22,17 +22,18 @@ let obj = {
 
 function multiplyNumeric(){
   let values = Object.values(obj)
-  values.forEach(value => {
-    if (typeof value === 'number'){'number'**2}})
+  values.forEach(function(item) {
+    if (typeof item === 'number'){'number'**2}})
     // if(typeof multiplyNumeric()=== "object"){
     //   console.log('Yes')
     //  }else{
     //   console.log('No')}
   return  values}
 
+ let yyy = multiplyNumeric(obj)
  
 
-console.log( multiplyNumeric(obj))
+console.log( yyy)
 
 
 
@@ -55,3 +56,28 @@ console.log( multiplyNumeric(obj))
 //  let rrr= sum()
 
 // console.log(rrr)
+
+
+
+// let obj = {
+//   width: 10, 
+//   height: 5,
+//   title: 'Test Array',
+//   count: 4
+// }
+
+
+// function multiplyNumeric(){
+//   let values = Object.values(obj)
+//   values.forEach(function(item) {
+//     if (typeof item === 'number'){'number'**2}})
+//     // if(typeof multiplyNumeric()=== "object"){
+//     //   console.log('Yes')
+//     //  }else{
+//     //   console.log('No')}
+//   return  values}
+
+//  let yyy = multiplyNumeric(obj)
+ 
+
+// console.log( yyy)
