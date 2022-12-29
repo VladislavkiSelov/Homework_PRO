@@ -20,7 +20,7 @@ let obj = {
 }
 
 
-function multiplyNumeric(obj){
+function multiplyNumeric(){
   let values = Object.values(obj)
   values.forEach(value => {
     if (typeof value === 'number'){'number'**2}})
@@ -44,4 +44,14 @@ console.log(result)
 
 // console.log(multiplyNumeric(obj))
 
+// let a = 1;
+// let b = 2;
 
+// function sum(a ,b){
+//   let ppp = a + b;
+//   result=ppp
+// }
+
+//  let rrr= sum()
+
+// console.log(rrr)
