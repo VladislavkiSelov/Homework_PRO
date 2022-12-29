@@ -30,7 +30,7 @@ function multiplyNumeric(){
     //   console.log('No')}
   return  values}
 
- multiplyNumeric(obj)
+ 
 
 console.log( multiplyNumeric(obj))
 
