@@ -30,9 +30,9 @@ function multiplyNumeric(){
     //   console.log('No')}
   return  values}
 
-  let result = multiplyNumeric(obj)
+ multiplyNumeric(obj)
 
-console.log(result)
+console.log( multiplyNumeric(obj))
 
 
 
