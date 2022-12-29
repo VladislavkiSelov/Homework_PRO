@@ -1,2 +1,2 @@
-let name = prompt('Введите ваше имя:');
-alert(`Hello,${name}!How are you?!`);
+let user = prompt('Введите ваше имя:');
+alert(`Hello,${user}!How are you?!`);

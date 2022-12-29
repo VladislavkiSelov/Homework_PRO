@@ -11,7 +11,7 @@ return[add]
 console.log(fillArray(amount, valueToFill))
 
 
-// Задание №2 (НЕ ПОНИМАЮ ЧТО Я ДЕЛАЮ НЕ ТАК, ПРОГРАММА НЕ РАБОТАЕТ, МОЖНО РЕШЕНИЕ?)
+// // Задание №2 (НЕ ПОНИМАЮ ЧТО Я ДЕЛАЮ НЕ ТАК, ПРОГРАММА НЕ РАБОТАЕТ, МОЖНО РЕШЕНИЕ?)
 let obj = {
   width: 10, 
   height: 5,
@@ -31,5 +31,15 @@ function multiplyNumeric(obj){
   return  obj}
 
 console.log(multiplyNumeric(obj))
+
+
+
+// function multiplyNumeric(obj){
+//   let values = Object.values(obj)
+//   values.forEach(value => {
+//     if (typeof value === 'number'){'number'**2}})
+//     return  values}
+
+// console.log(multiplyNumeric(obj))
 
 
