@@ -24,13 +24,15 @@ function multiplyNumeric(obj){
   let values = Object.values(obj)
   values.forEach(value => {
     if (typeof value === 'number'){'number'**2}})
-    if(typeof multiplyNumeric()=== "object"){
-      console.log('Yes')
-     }else{
-      console.log('No')}
+    // if(typeof multiplyNumeric()=== "object"){
+    //   console.log('Yes')
+    //  }else{
+    //   console.log('No')}
   return  values}
 
-console.log(multiplyNumeric(obj))
+  let result = multiplyNumeric(obj)
+
+console.log(result)
 
 
 
