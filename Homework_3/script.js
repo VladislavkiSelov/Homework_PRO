@@ -28,7 +28,7 @@ function multiplyNumeric(obj){
       console.log('Yes')
      }else{
       console.log('No')}
-  return  obj}
+  return  values}
 
 console.log(multiplyNumeric(obj))
 
