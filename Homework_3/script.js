@@ -22,8 +22,8 @@ let obj = {
 
 function multiplyNumeric(){
   let values = Object.values(obj)
-  values.forEach(function(item) {
-    if (typeof item === 'number'){'number'**2}})
+  values.forEach(function(item){
+    if (typeof item in obj === 'number'){'number'**2}})
     // if(typeof multiplyNumeric()=== "object"){
     //   console.log('Yes')
     //  }else{
