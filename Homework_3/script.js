@@ -31,8 +31,6 @@ function multiplyNumeric(){
   return  values}
 
  let yyy = multiplyNumeric(obj)
- 
-
 console.log( yyy)
 
 
