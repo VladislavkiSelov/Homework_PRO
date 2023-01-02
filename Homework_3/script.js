@@ -11,7 +11,7 @@ return[add]
 console.log(fillArray(amount, valueToFill))
 
 
-// // Задание №2 (НЕ ПОНИМАЮ ЧТО Я ДЕЛАЮ НЕ ТАК, ПРОГРАММА НЕ РАБОТАЕТ, МОЖНО РЕШЕНИЕ?)
+/ // Задание №2 (НЕ ПОНИМАЮ ЧТО Я ДЕЛАЮ НЕ ТАК, ПРОГРАММА НЕ РАБОТАЕТ, МОЖНО РЕШЕНИЕ?)
 let obj = {
   width: 10, 
   height: 5,
@@ -23,59 +23,34 @@ let obj = {
 function multiplyNumeric(){
   let values = Object.values(obj)
   values.forEach(function(item){
-    if (typeof item in obj === 'number'){'number'**2}})
-    // if(typeof multiplyNumeric()=== "object"){
-    //   console.log('Yes')
-    //  }else{
-    //   console.log('No')}
-  return  values}
+    if (typeof item  === 'number'){'number'**2}})
+  return  values
+}
 
- let yyy = multiplyNumeric(obj)
-console.log( yyy)
+ multiplyNumeric(obj)
+  console.log(obj)
 
 
 
-// function multiplyNumeric(obj){
-//   let values = Object.values(obj)
-//   values.forEach(value => {
-//     if (typeof value === 'number'){'number'**2}})
-//     return  values}
-
-// console.log(multiplyNumeric(obj))
-
-// let a = 1;
-// let b = 2;
-
-// function sum(a ,b){
-//   let ppp = a + b;
-//   result=ppp
-// }
-
-//  let rrr= sum()
-
-// console.log(rrr)
-
-
-
+// // // Задание №2 (НЕ ПОНИМАЮ ЧТО Я ДЕЛАЮ НЕ ТАК, ПРОГРАММА НЕ РАБОТАЕТ, МОЖНО РЕШЕНИЕ?)
 // let obj = {
-//   width: 10, 
+//   width: 10,
 //   height: 5,
 //   title: 'Test Array',
 //   count: 4
 // }
-
-
-// function multiplyNumeric(){
+// function multiplyNumeric() {
+//   let obj_final = {keys, values}
+//   let keys = Object.keys(obj)
+//   for (let key = 0; key < keys.length; key++) {
+//   }
 //   let values = Object.values(obj)
-//   values.forEach(function(item) {
-//     if (typeof item === 'number'){'number'**2}})
-//     // if(typeof multiplyNumeric()=== "object"){
-//     //   console.log('Yes')
-//     //  }else{
-//     //   console.log('No')}
-//   return  values}
+//   for (let i = 0; i < values.length; i++) {
+//     if (typeof i === 'number') { 'number' ** 2 }
+//   }
+//   return obj_final
+// }
+// multiplyNumeric(obj)
+// console.log(obj)
 
-//  let yyy = multiplyNumeric(obj)
- 
 
-// console.log( yyy)
