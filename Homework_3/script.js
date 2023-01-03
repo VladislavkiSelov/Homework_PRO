@@ -6,7 +6,7 @@ let add=[]
 for(let i = 0;i<amount;i++){
     add.push(valueToFill)
 }
-return[add]
+return add
 }
 console.log(fillArray(amount, valueToFill))
 
